@@ -1,5 +1,5 @@
 # Magic-Square
-> Creates a magic square by randomly generating a list until the list happens to be a magic square. Done as simply as possible...
+Creates a magic square by randomly generating a list until the list happens to be a magic square. Done as simply as possible...
 
 # Frequently Asked Questions
 ### Why?
@@ -34,4 +34,4 @@ print("\n".join(map(" ".join, zip(*[iter(final_square)] * 3))))
 :)
 
 # Special Thanks
-to Alex Martelli and Padraic Cunningham for the two stack overflow answers which made this monstrosity much more concise
+> to Alex Martelli and Padraic Cunningham for the two stack overflow answers which made this monstrosity much more concise
