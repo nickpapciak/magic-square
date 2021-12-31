@@ -1,0 +1,1 @@
+print("\n".join(map(" ".join,zip(*[iter(map(str,next(x for x in (__import__("random").sample([1,2,3,4,5,6,7,8,9],9) for _ in __import__("itertools").repeat(1)) if sum([x[0],x[3],x[6]])==sum([x[1],x[4],x[7]])==sum([x[2],x[5],x[8]])==sum([x[0],x[1],x[2]])==sum([x[3],x[4],x[5]])==sum([x[6],x[7],x[8]])==sum([x[0],x[4],x[8]])==sum([x[2],x[4],x[6]]))))]*3))))
